@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="js/styles.css">
+  <title>AERES-2025</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <!--style>
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  </style-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <!-- CSS FILES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&amp;display=swap" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/templatemo-festava-live.css" rel="stylesheet">
+  <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/videonav.css" rel="stylesheet">
+  <link href="css/herosection.css" rel="stylesheet">
+  <link href="css/gallery.css" rel="stylesheet">
+  <!--
+TemplateMo 583 Festava Live
+https://templatemo.com/tm-583-festava-live
+-->
+</head>
+<body>
+  <div id="colorbox"></div>
+  <main>
+    <!--header class="site-header">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-12 d-flex flex-wrap">
+<p class="d-flex me-4 mb-0">
+<i class="bi-person custom-icon me-2"></i>
+<strong class="text-dark">Welcome to AERES-2025</strong>
+</p>
+</div>
+</div>
+</div>
+</header-->
+<div class="header-container">
+  <div class="video-container">
+    <video src="video/rocket_launch.mp4" autoplay loop muted></video>
+  </div>
+  <div class="nav-container">
+    <nav class="navbar navbar-expand-lg"> </nav></div></div>
+  </main>
+  <div class="container"> <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/aerologo.png"
+        width="10%">Welcome to
+      AERES-2025 </a>
+    <!--a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+        <li class="nav-item"> <a href="#section_1">Home</a>
+        </li>
+        <li class="nav-item"> <a href="#section_2">About</a>
+        </li>
+        <li class="nav-item"> <a href="#section_3">Events</a>
+        </li>
+        <li class="nav-item"> <!--a class="nav-link click-scroll" href="https://indianinstituteofscience.sharepoint.com/:f:/s/aerosymposium2023/ElfmO8hNIGtCqGC6qZzhv6ABzdwIViDnUi_MGJ-xGTVJcA?e=skXVUT"
+            target="_blank"--><a href="#section_4"> Gallery</a> </li>
+        <li class="nav-item">
+          <!--a class="nav-link click-scroll" href="#section_5">Pricing</a>
+</li-->
+        </li>
+        <li class="nav-item"> <a href="#section_6">Contact</a>
+        </li>
+      </ul>
+      <!--a href="ticket.html" class="btn custom-btn d-lg-block d-none">Buy Ticket</a-->
+    </div>
+  </div>
+  <section class="hero-section" id="section_1"> </section>
+  <div class="section-overlay"></div>
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-12 mt-auto mb-5 text-center">
+        <!--h3 class="text-white mb-5"></h3-->
+        <h4 class="text-white mb-5">Department of Aerospace
+          Engineering, Indian Institute of Science</h4>
+        <h1 class="text-white mb-5">Aerospace Research Symposium
+          2025</h1>
+        <a class="btn custom-btn smoothscroll" href="#section_2">Let's
+          begin</a>
+      </div><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+        <use xlink:href="icons.svg#map-marker-alt"></use>
+      </svg> <!-- Location icon -->
+      <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
+        <div class="date-wrap">
+          <!--svg xmlns="http://www.w3.org/2000/svg">
+            <symbol id="map-marker-alt" viewBox="0 0 24 24"-->
+              <!-- Icon path here -->
+            <!--/symbol>
+            <symbol id="calendar-alt" viewBox="0 0 24 24"-->
+              <!-- Icon path here -->
+            <!--/symbol>
+          </svg-->
+          <h5 class="text-white"><a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MTRxY3N1ZW91bnJoYzZwNDczcDloNHJncHAgbWFoaXNoYWg3MDgxQG0&amp;tmsrc=mahishah7081%40gmail.com"><i class="fas fa-calendar-alt"></i>
+              15<sup>th</sup> - 18<sup>th</sup>,
+Jan 2025
+            </a> </h5>
+        </div>
+        <div class="location-wrap mx-auto py-3 py-lg-0">
+          <h5 class="text-white"> <a href="https://maps.app.goo.gl/eMwbnKdpcWjT4RdG6" target="_blank"><i class="fas fa-map-marker-alt"></i>Department
+              of Aerospace Engineering, IISC Banglore-560012</a> </h5>
+        </div>
+        <div class="social-share">
+          <ul class="social-icon d-flex align-items-center justify-content-center">
+            <span class="text-white me-3">Share:</span>
+            <li class="social-icon-item">
+              <a href="#" class="social-icon-link">
+                <span class="bi-linkedin"></span>
+              </a>
+            </li>
+            <!--li class="social-icon-item">
+              <a href="#" class="social-icon-link">
+                <span class="bi-twitter"></span>
+              </a>
+          </li-->
+            <li class="social-icon-item"> <a href="https://www.instagram.com/aeres_iisc/" class="social-icon-link"
+                target="_blank"> <span class="bi-instagram"></span> </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--div class="video-wrap"> <video autoplay="" loop="" muted="" class="custom-video" poster="">
+      <source src="video/rocket_launch.mp4" type="video/mp4"> Your browser does not support the video
+      tag. </source>
+    </video></div-->
+  <section class="artists-section section-padding" id="section_3"> </section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="mb-4"><a
+            href="https://indianinstituteofscience-my.sharepoint.com/personal/murthazaa_iisc_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmurthazaa%5Fiisc%5Fac%5Fin%2FDocuments%2FIISc%2FAERES%2FA3%5FAdvt%5FPosters%2Epdf&amp;parent=%2Fpersonal%2Fmurthazaa%5Fiisc%5Fac%5Fin%2FDocuments%2FIISc%2FAERES&amp;ga=1"
+            target="blank" text-black="">Previous Keynote Speakers</a></h2>
+      </div>
+      <div class="col-lg-5 col-12">
+        <div class="artists-thumb">
+          <div class="artists-image-wrap"> <img style="height: 10%;" src="images/artists/c25.jpg"
+              class="artists-image img-fluid"> </div>
+          <div class="artists-hover">
+            <p class="text-white text-align-center" style=""> </p>
+            <center class="text-white"> <strong>Dr. Bijukumar KS</strong><br>
+              Project Director, C-25, LPSC, ISRO <br>
+              <img style="height: 120px;" src="images/artists/biju.png">
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-12">
+        <div class="artists-thumb">
+          <div class="artists-image-wrap"> <img src="images/artists/brh.jpg" class="artists-image img-fluid"></div>
+          <div class="artists-hover">
+            <p class="text-white text-align-center" style=""> </p>
+            <center class="text-white"> <strong>Shri Atul
+                Dinkar Rane</strong><br>
+              CEO, MD, BrahMos <br>
+              <img style="height: 120px;" src="images/artists/atul.png">
+            </center>
+          </div>
+        </div>
+        <div class="artists-thumb"> <img src="images/artists/atherb.jpg" class="artists-image img-fluid">
+          <div class="artists-hover">
+            <p class="text-white text-align-center" style=""> </p>
+            <center class="text-white"> <strong>Shri Swapnil
+                Jain</strong><br>
+              CTO, Co-Founder, Ather Energy <br>
+              <img style="height: 120px;" src="images/artists/swapnil.png">
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="about-section section-padding" id="section_2">
+  <div class="container">
+    <div class="row">
+      <!--div class="col-lg-7 col-12 mb-4 mb-lg-0 d-flex align-items-center bg-text"-->
+      <div class="container col-lg-8 col-12 mb-4 mb-lg-0d-flex justify-content-center align-items-center bg-text">
+        <div class="services-info">
+          <p> <br>
+          </p>
+          <h2 class="text-white mb-4">About AERES 2025</h2>
+          <p class="text-white" style="font-size: 25px;">The
+            Aerospace Research Symposium (AERES) serves as an invaluable platform
+            for the bright minds in Aerospace Engineering at the prestigious Indian
+            Institute of Science. It offers students the opportunity to showcase
+            their groundbreaking research in the fields of Aeronautics and Space
+            technologies and share insights and engage in meaningful discussions
+            across various disciplines. It is a testament to the intellectual
+            vibrancy within our academic community.
+            After a brief pause, we are excited to announce the
+            return of the Aerospace Research Students' Symposium for the year 2025.
+          </p>
+          <h3 class="text-white mt-4">Once in Lifetime Experience</h3>
+          <p style="font-size: 25px;" class="text-white">AERES
+            2025 invites students to share their cutting-edge research through
+            diverse presentation formats, including oral, poster, and video
+            presentations. In addition to these student-focused sessions, AERES
+            2025 will facilitate the convergence of academia and industry through
+            engaging invited talks and interactive workshops. This symposium offers
+            a unique platform for various industries to exhibit their portfolios
+            and connect with students, fostering valuable interaction through
+            enlightening keynote speeches.</p>
+          <h3 class="text-white mt-4">Enhanced Learning</h3>
+          <p style="font-size: 25px;" class="text-white">We
+            cordially invite you all to partake in this 4-days extravaganza. Thank
+            you !<br>
+          </p>
+        </div>
+        <div class="container row">
+          <div class="container col">
+            <p> </p>
+            <!--h4> <a href="https://indianinstituteofscience-my.sharepoint.com/:b:/g/personal/rahulpradeep_iisc_ac_in/ETgBAZ7a6rhDmd8vEuZlKMIBxOJzjsmBDqmr408OwcXzXQ?e=T1kVFl" target="_blank">Event Schedule</a> </h4>
+</div>
+<div class="container col">
+<p> </p>
+<!--h4> <a href="https://indianinstituteofscience-my.sharepoint.com/personal/murthazaa_iisc_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmurthazaa%5Fiisc%5Fac%5Fin%2FDocuments%2FIISc%2FAERES%2FA3%5FAdvt%5FPosters%2Epdf&amp;parent=%2Fpersonal%2Fmurthazaa%5Fiisc%5Fac%5Fin%2FDocuments%2FIISc%2FAERES&amp;ga=1" target="_blank">Poster</a> </h4>
+</div-->
+            <div class="container col">
+              <p> </p>
+              <h4> <a href="guidelines.html" target="_blank">Submission
+                  Guidelines</a> </h4>
+            </div>
+            <div class="container col">
+              <p> </p>
+              <h4> <a
+                  href="https://indianinstituteofscience-my.sharepoint.com/:b:/g/personal/mahishah_iisc_ac_in/EdCgm3GThRFItiL4AE5CWbEBvdUY8pnLKIsSi7cho-sNhA?e=Jl2agx"
+                  target="_blank">Brochure</a> </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!--div class="col-lg-6 col-12">
+<div class="about-text-wrap">
+<img src="images/AERES.jpg" class="about-image img-fluid">
+<!-->
+      <!--div class="d-flex"> </div>
+<div class="ms-4">
+<h3>a happy moment</h3>
+<p class="mb-0">your amazing festival experience with us</p>
+</div>
+</div-->
+      <section class="artists-section section-padding" id="section_3"> </section>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h2 class="mb-4">Events</h2>
+          </div>
+          <div class="col-lg-5 col-12">
+            <div class="artists-thumb">
+              <div class="artists-image-wrap"> <img src="images/oral.jpg" style="height: 400px"
+                  class="artists-image img-fluid"></div>
+              <div class="artists-hover">
+                <p> <strong>Oral Presentation</strong> </p>
+                <p class="text-white"> Oral presentations give a chance to
+                  showcase the ongoing research and help in communicating the impact of
+                  the study and the results obtained in the research. </p>
+                <!--p>
+<strong>Music:</strong>
+Pop, R&amp;B
+</p-->
+                <hr>
+                <p class="mb-0"> <strong><a href="oral.html">Details</a></strong>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-12">
+            <div class="artists-thumb">
+              <div class="artists-image-wrap"> <img id="myImage" src="images/poster.jpg" style="height: 400px"
+                  class="artists-image img-fluid"></div>
+              <div class="artists-hover">
+                <p> <strong>Poster Presentation</strong> </p>
+                <p class="text-white">Research posters summarize
+                  information or research concisely and attractively to help publicize it
+                  and generate discussion. The poster is usually a mixture of brief text
+                  and tables, graphs, pictures, and other presentation formats. </p>
+                <!--p>
+<strong>Birthdate:</strong>
+Feb 20, 1988
+</p>
+<p>
+<strong>Music:</strong>
+Country
+</p-->
+                <hr>
+                <p class="mb-0"> <strong><a href="poster.html">Details</a></strong>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-12">
+            <div class="artists-thumb"> <img style="height: 400px" src="images/ansysbg.jpg"
+                class="artists-image img-fluid">
+              <div class="artists-hover">
+                <p> <strong>Workshop: Ansys-FSI</strong> </p>
+                <p class="text-white">Workshop on Ansys Fluent Fluid
+                  Structure Interaction with Ansys Mechanical. The training will present
+                  Hyper-elastic flap System coupling with solver settings and
+                  troubleshooting. </p>
+                <p> <strong><a
+                      href="https://indianinstituteofscience-my.sharepoint.com/:w:/g/personal/yashnaiwar_iisc_ac_in/EXFTxIVKz_pIthd9fS9f0oEBzUjYzDPneLKSrXDFGi9Gfw?e=rOWDTJ"
+                      target="blank">Details</a></strong> </p>
+                <hr>
+                <p class="mb-0">
+                  <!--strong>Youtube Channel:</strong>
+<a href="#">Bruno Official</a-->
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-12">
+            <div class="artists-thumb"> <img style="height: 400px" src="images/artists/cultural.jpg"
+                class="artists-image img-fluid">
+              <div class="artists-hover">
+                <p> <strong>Video Presentation</strong> </p>
+                <p class="text-white">Nothing communicates better than a
+                  small video of your experiments or simulations. All students are
+                  encouraged to take informative videos of their research and send them
+                  to us for presentation.</p>
+                <!--p>
+<strong>Music:</strong>
+Pop
+</p-->
+                <hr>
+                <p class="mb-0"> <strong> <a href="video.html">Details</a></strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--section class="schedule-section section-padding" id="section_4">
+<div class="container-responsive">
+<div class="row ">
+<div class="col-12 text-center">
+<h2 class="text-white mb-4">Event Schedule</h1>
+<div class="table-responsive">
+<table class="schedule-table table table-dark">
+<thead>
+<tr>
+<th scope="col">Date</th>
+<th scope="col">Wednesday, 3<sup>rd</sup> Jan</th>
+<th scope="col">Thursday, 4<sup>th</sup> Jan</th>
+<th scope="col">Friday, 5<sup>th</sup> Jan</th>
+<th scope="col">Saturday, 6<sup>th</sup> Jan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Session 1</th>
+<td class="table-background-iimage-wrap pop-background-image">
+<h3>Inaugural Address</h3>
+<p class="mb-2">09:00 - 09:15 AM</p>
+<p>By Chair & Faculty Advisor</p>
+<div class="section-overlay"></div>
+</td>
+<td class="table-background-image-wrap riock-background-image"> <h3>Oral Presentation</h3>
+<p class="mb-2">09:00 AM - 04:30 PM</p>
+<p>At AE Aud.</p>
+</td>
+<td class="table-background-image-wrap riock-background-image">
+<h3>Oral Presentation</h3>
+<p class="mb-2">11:00 AM- 03:00 PM</p>
+<p>At AE Aud.</p>
+<div class="section-overlay"></div>
+</td>
+<td class="table-background-image-wrap riock-background-image"> <h3>Dr. Bijukumar K S</h3>
+<p class="mb-2">Project Director, C-25, LPSC/ISRO</p>
+<p>10:45 - 11:45 AM</p>
+<p>At AE Aud.</p>
+</td>
+</tr>
+<tr>
+<th scope="row">Session 2</th>
+<td class="table-background-image-wrap riock-background-image"> <h3>Oral Presentation</h3>
+<p class="mb-2">09:30 AM - 12:30 PM</p>
+<p>At AE Aud.</p>
+</td>
+<td>
+<h3>Lunch</h3>
+<p class="mb-2">12:30 - 02:00 PM</p>
+<p>On Terrace</p>
+</td>
+<td class="table-background-image-wrap country-background-image"> <h3>Session on Mental Health</h3>
+<p class="mb-2">03:30 PM - 04:30 PM</p>
+<p>By Dr. Ajit V Bhide & Prof. S N Omkar</p>
+<p>At AE Aud.</p>
+</td>
+<td class="table-background-image-wrap country-background-image">
+<h3>Shri Atul Dinkar Rane</h3>
+<p class="mb-2">CEO & MD BRAHMOS </p>
+<p>02:00 - 03:00 PM</p>
+<p>At AE Aud.</p>
+<div class="section-overlay"></div>
+</td>
+</tr>
+<tr>
+<th scope="row">Session 3</th>
+<td class="table-background-image-wrap country-background-image">
+<h3>Workshop by ANSYS</h3>
+<p class="mb-2">02:00 - 05:30 PM</p>
+<p>At AE Aud.</p>
+<div class="section-overlay"></div>
+</td>
+<td class="table-background-image-wrap country-background-image" >
+<h3>Allumini Talk</h3>
+<p>On Research Resilience</p>
+<p class="mb-2">03:30 - 04:30 PM</p>
+<p>At AE Aud.</p>
+</td>
+<td>
+<h3>Poster Presentation</h3>
+<p class="mb-2">04:30 - 05:30 PM</p>
+<p>At AE Atrium</p>
+</td>
+<td class="table-background-image-wrap country-background-image">
+<h3>Shri Swapnil Jain</h3>
+<p class="mb-2">CTO, Co-Founder Ather Energy</p>
+<p >4:15 - 05:15 PM</p>
+<p>At AE Aud.</p>
+</tr>
+</tbody>
+</table>
+<p class="container" style="margin-bottom:-10px;">
+<h4>
+<a href="https://indianinstituteofscience-my.sharepoint.com/:b:/g/personal/yashnaiwar_iisc_ac_in/EdQCH52KCRRAnfrKklRncpsBpGEX_C7C7Zg854kwOxUr1Q?e=2OGj9D" target="blank" >Detailed Schedule</a>
+</h4>
+</p>
+</div>
+</div>
+</div>
+</div>
+</section-->
+      <!--div class="container">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+</ol>
+  <!--Wrapper for slides-->
+      <!--div class="carousel-inner">
+    <div class="carousel-item active">
+<!--div class="carousel-item active"> <img class="d-block w-100" src="images/COLLAGE%201.jpg" alt="First slide"> </div-->
+      <!--img src="images/COLLAGE%201.jpg" alt="First slide"> </div>
+<div class="carousel-item active"> <img src="images/COLLAGE%203.jpg" alt="Second slide"> </div>
+<div class="carousel-item active"> <img src="images/Collage.png" alt="Third slide"> </div>
+</div>
+  <!--Left and right controls-->
+      <!--a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span></a>
+</div-->
+      <section class="artists-section section-padding" id="section_4"> </section>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h2 class="mb-4">Gallery</h2>
+          </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 9</div>
+          <img src="images/Presentation.jpg" style="width:100%">
+          <div class="text">AERES 2024</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 9</div>
+          <img src="images/PosterPresen.jpg" style="width:100%">
+          <div class="text">AERES 2024</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 9</div>
+          <img src="images/Tools.jpg" style="width:100%">
+          <div class="text">AERES 2024</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 9</div>
+          <img src="images/Gifting.jpg" style="width:100%">
+          <div class="text">AERES 2024</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 8</div>
+          <img src="images/Musical.jpg" style="width:100%">
+          <div class="text">AERES 2024</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 9</div>
+          <img src="images/Food.jpg" style="width:100%">
+          <div class="text">AERES 2024</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 9</div>
+          <img src="images/Audience.jpg" style="width:100%">
+          <div class="text">AERES 2024</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">8 / 9</div>
+          <img src="images/AERESGroup.jpg" style="width:100%">
+          <div class="text">AERES 2024</div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">9 / 9</div>
+          <img src="images/Toolspresen.jpg" style="width:100%">
+          <div class="text">AERES 2024</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+      <!--script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex - 1].style.display = "block";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }</script-->
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+      </div>
+      </div>
+  <br>
+
+  <!--div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+
+  <!--script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 1000); // Change image every 2 seconds
+  }
+  </script-->
+      <section class="pricing-section section-padding section-bg" id="section_5"> </section>
+      <div class="container-responsive">
+        <div class="row">
+          <div class="col-lg-8 col-12 mx-auto">
+            <h2 class="text-center mb-4">Our Previous Sponsors</h2>
+          </div>
+  <div class="gallery-container">
+          <!--div class="row">
+            <div class="col-lg-6 col-12 d-flex justify-content-center align-item-center img-fluid"><img src="images/DRDO.png" height="40%"> </div>
+            <div class="col-lg-6 col-12 d-flex justify-content-center align-item-center">
+              <img src="images/honeywell.png" height="50%" width="60%">
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 d-flex justify-content-center align-item-center">
+<img src='images/pnw.png' height="60%">
+</div>
+          <div class="col-lg-6 col-12 d-flex justify-content-center align-item-center">
+            <img src="images/Ansys.jpg" height="50%" width="60%">
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-12 d-flex justify-content-center align-item-center img-fluid"><img
+                src="images/wipro.png" width="40%"> </div>
+            <div class="col-lg-6 col-12 d-flex justify-content-center align-item-center img-fluid">
+              <img src="images/biss.png" width="40%">
+            </div>
+  </div-->
+  </div>
+          <!--div class="pricing-thumb">
+<div class="d-flex">
+<div>
+<h3><small>Early Bird</small> $120</h3>
+<p>Including good things:</p>
+</div>
+<p class="pricing-tag ms-auto">Save up to <span>50%</span></h2>
+</div>
+<ul class="pricing-list mt-3">
+<li class="pricing-list-item">platform for potential customers</li>
+<li class="pricing-list-item">digital experience</li>
+<li class="pricing-list-item">high-quality sound</li>
+<li class="pricing-list-item">standard content</li>
+</ul>
+<a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+<span>Buy Ticket</span>
+<svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="16" cy="16" r="15.5"></circle>
+<line x1="10" y1="18" x2="16" y2="12"></line>
+<line x1="16" y1="12" x2="22" y2="18"></line>
+</g>
+</svg>
+</a>
+</div>
+</div>
+<div class="col-lg-6 col-12 mt-4 mt-lg-0">
+<div class="pricing-thumb">
+<div class="d-flex">
+<div>
+<h3><small>Standard</small> $240</h3>
+<p>What makes a premium festava?</p>
+</div>
+</div>
+<ul class="pricing-list mt-3">
+<li class="pricing-list-item">platform for potential customers</li>
+<li class="pricing-list-item">digital experience</li>
+<li class="pricing-list-item">high-quality sound</li>
+<li class="pricing-list-item">premium content</li>
+<li class="pricing-list-item">live chat support</li>
+</ul>
+<a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+<span>Buy Ticket</span>
+<svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="16" cy="16" r="15.5"></circle>
+<line x1="10" y1="18" x2="16" y2="12"></line>
+<line x1="16" y1="12" x2="22" y2="18"></line>
+</g>
+</svg>
+</a>
+</div-->
+        </div>
+      </div>
+      <section class="contact-section section-padding" id="section_6"> </section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-12 mx-auto">
+            <h2 class="text-center mb-4">Interested? Let's talk</h2>
+            <nav class="d-flex justify-content-center"> </nav>
+            <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab" role="tablist"> <button
+                class="nav-link active" id="nav-ContactForm-tab" data-bs-toggle="tab" data-bs-target="#nav-ContactForm"
+                type="button" role="tab" aria-controls="nav-ContactForm" aria-selected="false">
+                <h5>Contact Form</h5>
+              </button> <button class="nav-link" id="nav-ContactMap-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-ContactMap" type="button" role="tab" aria-controls="nav-ContactMap"
+                aria-selected="false">
+                <h5>Google Maps</h5>
+              </button> </div>
+            <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel"
+                aria-labelledby="nav-ContactForm-tab">
+                <form class="custom-form contact-form mb-5 mb-lg-0" action="#" method="post" role="form">
+                  <div class="contact-form-body">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-12"> <input name="contact-name" id="contact-name"
+                          class="form-control" placeholder="Full name" required="" type="text"> </div>
+                      <div class="col-lg-6 col-md-6 col-12"> <input name="contact-email" id="contact-email"
+                          pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required=""
+                          type="email">
+                      </div>
+                    </div>
+                    <input name="contact-company" id="contact-company" class="form-control" placeholder="Company"
+                      required="" type="text"> <textarea name="contact-message" rows="3" class="form-control"
+                      id="contact-message" placeholder="Message"></textarea>
+                    <div class="col-lg-4 col-md-10 col-8 mx-auto"> <button type="submit" class="form-control">Send
+                        message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="nav-ContactMap" role="tabpanel" aria-labelledby="nav-ContactMap-tab">
+                <iframe class="google-map"
+                  src="https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d5066.450294574009%212d77.56059067605769%213d13.02632981367402%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x3bae17d895f23405%3A0xb3c237381c9e858d%212sDepartment%20of%20Aerospace%20Engineering%215e1%213m2%211sen%212sin%214v1696543003218%215m2%211sen%212sin"
+                  style="border: 0pt none ;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" height="450" width="100%"></iframe>
+                <!-- You can easily copy the embed code from Google Maps -> Share -> Embed a map // -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="site-footer"> </footer>
+      <div class="site-footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <h2 class="text-white mb-lg-0">AERES 2025</h2>
+            </div>
+            <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
+              <ul class="social-icon d-flex justify-content-lg-end">
+                <li class="social-icon-item"> <a href="#" class="social-icon-link"> <span class="bi-twitter"></span>
+                  </a> </li>
+                <!--li class="social-icon-item">
+<a href="#" class="social-icon-link">
+<span class="bi-apple"></span>
+</a>
+</li-->
+                <li class="social-icon-item"> <a href="#" class="social-icon-link"> <span
+                      class="bi-instagram"></span></a>
+                </li>
+                <li class="social-icon-item"> <a href="#" class="social-icon-link"> <span class="bi-youtube"></span>
+                  </a> </li>
+                <!--li class="social-icon-item">
+<a href="#" class="social-icon-link">
+<span class="bi-pinterest"></span>
+</a>
+</li-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12 mb-4 pb-2">
+            <h5 class="site-footer-title mb-3">Links</h5>
+            <ul class="site-footer-links">
+              <li class="site-footer-link-item"> <a href="#" class="site-footer-link">Home</a> </li>
+              <li class="site-footer-link-item"> <a href="#" class="site-footer-link">About</a> </li>
+              <li class="site-footer-link-item"> <a href="#" class="site-footer-link">Events</a> </li>
+              <li class="site-footer-link-item"> <a
+                  href="https://indianinstituteofscience-my.sharepoint.com/:b:/g/personal/yashnaiwar_iisc_ac_in/EcrkBHePSRxKl2mjJ98SsF0Bo5x_R0ydQt_x6Nbxl26HgA?e=AxKI6P"
+                  target="_blank" class="site-footer-link">Schedule</a>
+              </li>
+              <!--li class="site-footer-link-item">
+<a href="#" class="site-footer-link">Pricing</a>
+</li-->
+              <li class="site-footer-link-item"> <a href="#" class="site-footer-link">Contact</a> </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+            <h5 class="site-footer-title mb-3">Have a question?</h5>
+            <!--p class="text-white d-flex mb-1">
+<a href="tel: 090-080-0760" class="site-footer-link">
+090-080-0760
+</a>
+</p-->
+            <p class="text-white d-flex"> <a href="mailto:aerosymposium2024@iisc.ac.in" class="site-footer-link">
+                aerosymposium@iisc.ac.in </a>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
+            <h5 class="site-footer-title mb-3">Location</h5>
+            <p class="text-white d-flex mt-3 mb-2"> Indian Institute
+              of Science, CV Raman Avenue, Banglore, India-560012</p>
+            <a class="link-fx-1 color-contrast-higher mt-3" href="https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d5066.450294574009%212d77.56059067605769%213d13.02632981367402%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x3bae17d895f23405%3A0xb3c237381c9e858d%212sDepartment%20of%20Aerospace%20Engineering%215e1%213m2%211sen%212sin%214v1696543003218%215m2%211sen%212sin"
+              target="_blank">
+              <span>Our Maps</span> <svg class="icon" viewbox="0 0 32 32" aria-hidden="true">
+                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="16" cy="16" r="15.5"></circle>
+                  <line x1="10" y1="18" x2="16" y2="12"></line>
+                  <line x1="16" y1="12" x2="22" y2="18"></line>
+                </g>
+              </svg> </a>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-12 mt-5">
+              <p class="copyright-text">Copyright © Department of
+                Aerospace Engineering, Indian Institute of Science, Banglore</p>
+              <!--p class="copyright-text">Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p-->
+            </div>
+            <!--div class="col-lg-8 col-12 mt-lg-5">
+<ul class="site-footer-links">
+<li class="site-footer-link-item">
+<a href="#" class="site-footer-link">Terms &amp; Conditions</a>
+</li>
+<li class="site-footer-link-item">
+<a href="#" class="site-footer-link">Privacy Policy</a>
+</li>
+<li class="site-footer-link-item">
+<a href="#" class="site-footer-link">Your Feedback</a>
+</li>
+</ul>
+</div-->
+          </div>
+        </div>
+      </div>
+      <!--
+T e m p l a t e M o
+-->
+      <!-- JAVASCRIPT FILES -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="js/carousel.js"></script>
+      <script src="js/galley.js"></script>
+</body>
+
+</html>
